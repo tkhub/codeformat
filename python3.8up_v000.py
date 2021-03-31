@@ -68,11 +68,11 @@ class class_name:
 
     
 
-"""
-@fn main()
-@brief モジュール単体実行時の実行関数
-"""
 def main():
+    """
+    @fn main()
+    @brief モジュール単体実行時の実行関数
+    """
     print("## START! Stand Alone Operation ##")
     test = class_name('abc')
     print("## END! Stand Alone Operation ##")
