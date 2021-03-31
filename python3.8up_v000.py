@@ -73,8 +73,9 @@ class class_name:
 @brief モジュール単体実行時の実行関数
 """
 def main():
-    test = class_name(abc)
-    print("## Stand Alone Operation ##")
+    print("## START! Stand Alone Operation ##")
+    test = class_name('abc')
+    print("## END! Stand Alone Operation ##")
 
 if __name__ == '__main__':
     main()
