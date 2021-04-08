@@ -23,8 +23,8 @@
 @note メモ
 """
 
-
-from typing import Final, overload
+import sys
+from typing import Final, 
 
 GCONSTVAL:Final[int] = 3
 
@@ -78,4 +78,11 @@ def main():
     print("## END! Stand Alone Operation ##")
 
 if __name__ == '__main__':
-    main()
+    
+    try:
+        main(sys.argv)
+    except Exception as e:
+        print("ERROR >> ", e)
+        sys.exit(1)
+    else:
+        sys.exit(0)
