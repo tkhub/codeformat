@@ -23,8 +23,12 @@
 @note メモ
 """
 
+# Standard module
 import sys
-from typing import Final, 
+from typing import Final 
+# therd party module
+
+# my module
 
 GCONSTVAL:Final[int] = 3
 
@@ -68,7 +72,7 @@ class class_name:
 
     
 
-def main():
+def main(argv:str):
     """
     @fn main()
     @brief モジュール単体実行時の実行関数
